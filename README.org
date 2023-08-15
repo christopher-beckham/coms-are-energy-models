@@ -1,0 +1,13 @@
+* coms-are-energy-models
+
+Official code for the paper: *Conservative objective models are a special kind of contrastive divergence-based energy model*
+
+#+begin_quote
+In this work we theoretically show that conservative objective models (COMs) for offline model-based optimisation (MBO) are a special kind of contrastive divergence-based energy model, one where the energy function represents both the unconditional probability of the input and the conditional probability of the reward variable. While the initial formulation only samples modes from its learned distribution, we propose a simple fix that replaces its gradient ascent sampler with a Langevin MCMC sampler. This gives rise to a special probabilistic model where the probability of sampling an input is proportional to its predicted reward. Lastly, we show that better samples can be obtained if the model is decoupled so that the unconditional and conditional probabilities are modelled separately.
+#+end_quote
+
+[[./assets/coms-animation-compressed.gif]]
+
+* Reproduction
+
+All experiments are self-contained in the IPython notebook file!
